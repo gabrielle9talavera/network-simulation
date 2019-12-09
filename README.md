@@ -5,7 +5,13 @@ Gabrielle Talavera
 
 DESCRIPTION: This project simulates a mesh network where nodes and links may fail. Nodes may fail intermittently,
 and as an input to the simulation, each node and link will have a certain probability to fail. When such failure
-occurs, the network must adapt and re-route to avoid the faulty node.
+occurs, the network must adapt and re-route to avoid the faulty node. This network uses the Floyd-Warshall algorithm 
+to route to a source and destination.
+
+ADDITIONAL FEATURE: This program uses the Floyd-Warshall algorithm to route to a source to destination. There is a 
+feature that can compare Dijkstra's and the Bellman-Ford algorithm to the Floyd-Warshall algorithm. To compare
+Floyd-Warshall to Dijkstra's uncomment lines: 107, 112, 122. To compare Floyd-Warshall with the Bellman-Ford algorithm
+uncomment lines: 108, 113, 123.
 
 RUNNING THE PROGRAM:
 1. Make sure Python is installed. I used version 3.7.4 to build this project.
