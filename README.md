@@ -3,7 +3,7 @@
 AUTHOR:
 Gabrielle Talavera
 
-DESCRIPTION: This project simulates a mesh network where nodes and links may fail. Nodes may fail intermittently,
+DESCRIPTION: This project simulates a dynamic mesh network where nodes and links may fail. Nodes may fail intermittently,
 and as an input to the simulation, each node and link will have a certain probability to fail. When such failure
 occurs, the network must adapt and re-route to avoid the faulty node. This network uses the Floyd-Warshall algorithm 
 to route from a source node to the destination.
